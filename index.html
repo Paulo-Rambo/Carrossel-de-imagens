@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating img gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <p>Carrossel de Imagens</p> -->
+    <p>Carrossel de Imagens</p>
+    <section class="carrossel">
+        <div class="img--gallery">
+            <span style="--i: 1">
+                <img src="https://picsum.photos/id/237/400/300" name="img1" alt="random">
+            </span>
+            <span style="--i: 2">
+                <img src="https://picsum.photos/id/238/400/300" name="img2" alt="random">
+            </span>
+            <span style="--i: 3">
+                <img src="https://picsum.photos/id/239/400/300" name="img3" alt="random">
+            </span>
+            <span style="--i: 4">
+                <img src="https://picsum.photos/id/478/400/300" name="img4" alt="random">
+            </span>
+            <span style="--i: 5">
+                <img src="https://picsum.photos/id/241/400/300" name="img5" alt="random">
+            </span>
+            <span style="--i: 6">
+                <img src="https://picsum.photos/id/242/400/300" name="img6" alt="random">
+            </span>
+            <span style="--i: 7">
+                <img src="https://picsum.photos/id/243/400/300" name="img7" alt="random">
+            </span>
+            <span style="--i: 8">
+                <img src="https://picsum.photos/id/244/400/300" name="img8" alt="random">
+            </span>
+        </div>
+        <div class="btn-container">
+            <button id="prev" class="btn btn--btn--prev" id="prev"><< Prev</button>
+            <button id="next" class="btn btn--btn--next" id="next">Next >></button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
